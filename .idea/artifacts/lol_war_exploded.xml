@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="lol:war exploded">
+    <output-path>$PROJECT_DIR$/target/JavaServerFaces</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="lol/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="lol" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.1" />
+          <element id="library" level="project" name="Maven: com.sun.el:el-ri:1.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
