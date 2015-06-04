@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 public class IndexBean implements Serializable {
     private String page = "template/welcomePage.xhtml";
-    String outText = "hello";
+    String outText = "hello%)";
     String nickname;
     String password;
     String authorizationResult = "Вы не авторизовались";
